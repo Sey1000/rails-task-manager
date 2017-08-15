@@ -1,0 +1,11 @@
+<h3>
+  <%= @task.title %>
+</h3>
+<p>
+  <%= @task.description %>
+</p>
+<p>
+  created: 
+  <%= @task.created_at %>
+</p>
+<%= link_to 'Back to the list', tasks_path %>
